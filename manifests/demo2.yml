@@ -1,0 +1,9 @@
+apiVersion: org.sebi/v1alpha1
+kind: Database
+metadata:
+  name: sebi-mysql-3
+spec:
+  type: mysql
+  project: devrel-sebastien
+  plan: startup-4
+
